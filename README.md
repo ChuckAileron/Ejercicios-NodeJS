@@ -9,5 +9,5 @@
 
 ### App Web Avanzada
 
-- Ejercicio 3: Consumir desde API. Callback Hell, Promesas, Async/Await.
+- Ejercicio 3: Consumir datos desde API Web (sin autorización requerida). Callback Hell, Promesas, Async/Await.
 - Ejercicio 4: Fundamentos de Express. API (local desde archivos), middlewares, archivos estáticos, variables de entorno, modularizar código, configuraciones de ESLint y Prettier.
