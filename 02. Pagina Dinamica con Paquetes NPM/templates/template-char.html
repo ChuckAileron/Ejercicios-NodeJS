@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
+    />
+    <link href="./../public/styles/char.css" rel="stylesheet" type="text/css" />
+    <title>{%CHARNAME%} /// TALES OF DESTINY</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Tales of Destiny</h1>
+
+      <!-- Detalles del personaje obtenidos desde data.json. Los nombres dentro de {%%} son placeholders, sirve cualquiera -->
+      <!-- Se pueden agregar placeholders en el contenido de la etiqueta o incluso dentro de la clase, en href, etc -->
+      <figure class="char">
+        <div class="char__organic {%NOT_SSR%}">
+          <h5>SSR</h5>
+        </div>
+        <a href="/overview" class="char__back">
+          <span class="emoji-left">👈</span>Back
+        </a>
+        <!--            
+            <div class="char__hero">
+                <span class="char__emoji char__emoji--1">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--2">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--3">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--4">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--5">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--6">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--7">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--8">{%IMAGE%}</span>
+                <span class="char__emoji char__emoji--9">{%IMAGE%}</span>
+            </div>
+-->
+
+        <div class="char__hero">
+          <img style="max-width: 40" src="{%PORTRAIT%}" />
+        </div>
+
+        <h2 class="char__name">{%CHARNAME%}</h2>
+        <div class="char__details">
+          <p><span class="emoji-left">🌍</span>From {%FROM%}</p>
+          <p><span class="emoji-left">❤️</span>{%SWORDIAN%}</p>
+          <p><span class="emoji-left">📦</span>{%POWERTYPE%}</p>
+          <p><span class="emoji-left">🏷</span>{%ATTACK%}</p>
+        </div>
+        <!--
+            <a href="#" class="char__link">
+                <span class="emoji-left">🛒</span>
+                <span>Add to shopping card ({%PRICE%}€)</span>
+            </a>
+-->
+        <p class="char__description">{%DESCRIPTION%}</p>
+      </figure>
+    </div>
+  </body>
+</html>

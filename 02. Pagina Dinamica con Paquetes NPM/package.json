@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-nodejs",
+  "version": "1.0.0",
+  "description": "Ejercicio de pagina basica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Carlos Tobar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "slugify": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

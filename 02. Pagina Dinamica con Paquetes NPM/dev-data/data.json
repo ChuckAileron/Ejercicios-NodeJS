@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "charName": "Stahn Aileron",
+    "sprite": "./../public/images/Stahn.gif",
+    "portrait": "./../public/images/Stahn_Portrait.png",
+    "from": "Lienea",
+    "swordian": "Dymlos",
+    "powertype": "Fire",
+    "attack": "15000",
+    "ssr": true,
+    "description": "Stahn Aileron is the main protagonist of Tales of Destiny. He is a country boy who excels in swordsmanship. Stahn left his hometown for fame and fortune, but as fate decreed, was forced into a journey that would save the world. He is the master of the Swordian of Fire, Dymlos. They shared a bond of friendship and trust, although Dymlos is sometimes annoyed with Stahn's stupidity. Stahn is also the father of the game's sequel protagonist, Kyle Dunamis."
+  },
+  {
+    "id": 1,
+    "charName": "Rutee Katrea",
+    "sprite": "./../public/images/Rutee.gif",
+    "portrait": "./../public/images/Rutee_Portrait.png",
+    "from": "Cresta",
+    "swordian": "Atwight",
+    "powertype": "Water/Ice",
+    "attack": "8200",
+    "ssr": true,
+    "description": "Rutee Katrea is the heroine of Tales of Destiny who also makes an appearance in its sequel, Tales of Destiny 2. She is considered greedy, money-hungry, and always out for herself, but eventually her more noble goals and traits are made known to the party. Working as a Lens Hunter with her partner, Mary Argent, Rutee kills monsters to acquire Lens and sell it to Oberon Corporation for Gald. When not fighting against monsters for her money, Rutee can be found combing ancient ruins for treasures to sell. Rutee is the mistress of Atwight, the Swordian of Water, who also excels at healing magic. Atwight has been with her as long as she can remember and is like a mother figure for the girl. Rutee is also the mother of the sequel's protagonist, Kyle Dunamis."
+  },
+  {
+    "id": 2,
+    "charName": "Leon Magnus",
+    "sprite": "./../public/images/Leon.gif",
+    "portrait": "./../public/images/Leon_Portrait.png",
+    "from": "Darilsheid",
+    "swordian": "Chaltier",
+    "powertype": "Earth/Dark",
+    "attack": "19400",
+    "ssr": true,
+    "description": "Leon Magnus, birth name Emilio Katrea, is a character from Tales of Destiny. A cold-hearted, brooding young prodigy of a swordsman from Seinegald, Leon is the youngest master swordsman to become a captain of the Kingdom of Seinegald. He is closely associated with Hugo Gilchrist and lives in his manor located in the city of Darilsheid. Although he shows a cold exterior to his associates, he opens up to a maid in Hugo's house named Marian Fustel. He is also the master of the Swordian of Earth, Chaltier."
+  },
+  {
+    "id": 3,
+    "charName": "Philia Felice",
+    "sprite": "./../public/images/Philia.gif",
+    "portrait": "./../public/images/Philia_Portrait.png",
+    "from": "Straylize Temple",
+    "swordian": "Clemente",
+    "powertype": "Light",
+    "attack": "6400",
+    "ssr": false,
+    "description": "Philia Felice is one of the protagonists of Tales of Destiny, also appearing in its sequel as a supporting character. Philia is an apprentice priestess from Straylize Temple, although she is also interested in conducting research, fulfilling the scientist archetype of the story. She is kind, polite, and naive, possessing many qualities typical of a feminine woman. She specializes in offensive magic of all elements with the help of her Swordian Clemente."
+  },
+  {
+    "id": 4,
+    "charName": "Woodrow Kelvin",
+    "sprite": "./../public/images/Woodrow.gif",
+    "portrait": "./../public/images/Woodrow_Portrait.png",
+    "from": "Heidelberg",
+    "swordian": "Igtenos",
+    "powertype": "Wind",
+    "attack": "12400",
+    "ssr": false,
+    "description": "Garr Kelvin is one of the main characters of Tales of Destiny and a supporting character in its sequel, Tales of Destiny 2. Garr is the prince, and later king, of the snowy kingdom of Phandaria, and is the first playable ally Stahn Aileron meets. He is a master of both swordsmanship and archery and later gains several wind magics, augmented by his Swordian, Igtenos. He is also a kind, honorable man, very keen to his surroundings, and in possession of a logical mind."
+  }
+]

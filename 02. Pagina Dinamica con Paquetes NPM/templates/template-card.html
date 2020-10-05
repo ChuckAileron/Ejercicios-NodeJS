@@ -1,0 +1,26 @@
+<!-- Template de tarjeta para overview dinamico -->
+
+<figure class="card">
+    <img src="{%SPRITE%}"></img>
+    <div class="card__title-box">
+        <h2 class="card__title">{%CHARNAME%}</h2>
+    </div>
+
+    <div class="card__details">
+        <div class="card__detail-box {%NOT_SSR%}">
+            <h6 class="card__detail card__detail--ssr">Has SSR!</h6>
+        </div>
+
+        <div class="card__detail-box">
+            <h6 class="card__detail">{%POWERTYPE%}</h6>
+        </div>
+
+        <div class="card__detail-box">
+            <h6 class="card__detail card__detail--price">{%ATTACK%} ATK</h6>
+        </div>
+    </div>
+
+    <a class="card__link" href="/char?name={%ID%}">
+        <span>Detail <i class="emoji-right">👉</i></span>
+    </a>
+</figure>
